@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My project</title>
+    <style>
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        margin: auto;
+        padding: 20px;
+        background-color: bisque;
+    }
+    .container{
+        max-width: 600px;
+        margin: auto;
+        background-color: bisque;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px;
+        
+    }
+    .button{
+        margin-top: 20px;
+        padding: 5px;
+        background-color: rgb(43, 226, 70);
+        border-radius: 5px;
+        cursor: pointer;
+        color: rgb(16, 14, 14);
+        text-align: center;
+        font-size: 1em;
+    }
+h1{
+    text-align: center;
+    background-color: none;
+    color: brown;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-top: 10px;
+}
+input,select{
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px salmon;
+    border-radius: 5px;
+}
+.button:hover{
+    text-decoration: underline;
+
+}
+
+
+   </style>
+   
+</head>
+<body>
+   <div class="container">
+    <H1>Buy Tickets</H1>
+    <form action="submit-ticket.html" method="post">
+
+        <label for="name">Name</label> <br>       
+        <input type="text" id="name" placeholder="null"><br> 
+
+        <label for="mobile">Mobile</label><br> 
+        <input type="number" id="email" placeholder="null"><br>
+
+        <label for="email">Email</label><br> 
+        <input type="text" id="email" placeholder="null"><br> 
+
+        <label for="name">Address</label><br> 
+        <input type="text" id="address"  placeholder="null"><br> 
+
+        <!--<label for="gender">Gender</label><br> 
+        <label for="gender">Male</label>
+         
+        <input type="radio" name="gender"  id="male" value="male">
+        <label for="gender">Female</label>
+        <input type="radio" name="gender" id="female" value="female"> <br><br>
+    -->
+        <label for="event">Event</label>
+        <select id="event" name="event">
+            <option value="concert">Concert</option> 
+            <option value="drama">Drama</option> 
+            <option value="movie">Movie</option> 
+            <option value="gameshow">Game-show</option> 
+        </select><br>
+        <br>
+        <div class="container2">
+            <label for="datePicker">Select Date</label>
+            <input type="date" id="datePicker" name="datePicker"
+    
+
+        
+            <label for="seat">Seat</label>
+        <select id="seat" name="seat">
+            <option value="Shovon_Chair">Shovon Chair</option>
+            <option value="First_class_Chair">First Class_Chair</option>
+            <option value="AC_Chair">AC Chair</option>
+        </select>
+
+        </div>
+
+    
+
+        <label for="quantity">Quantity</label>
+        <select id="event" name="event">
+            <option value="1">1</option> 
+            <option value="2">2</option> 
+            <option value="3">3</option> 
+            <option value="4">4</option> 
+            <option value="5">5</option> 
+            <option value="6">6</option>
+            </select> 
+
+        <br><br>
+        <button type="submit" class="button"><a href="booknow.htm">Book Now</a></button>
+
+    </form>
+
+   </div>
+
+</body>
+</html>

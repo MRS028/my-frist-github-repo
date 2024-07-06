@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md. Rifat Sheikh</title>
+    <style>
+        body{
+            background-color: rgb(255, 228, 196);
+            margin: auto;
+            padding: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: justify;
+            font-size: 1.5em;
+        }
+        .container{
+            color: none;
+            height: 100%;
+            max-width: 500px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .profile-picture{
+            text-align: center;
+        }
+        .profile-picture img{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid #8194cc;
+    
+        }
+        .bio{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        footer{
+
+            color: rgb(14, 13, 13);
+            text-align: left;
+            padding: 10px 0;
+            position: absolute;
+            width: 100%;
+            bottom: ;
+            border-radius: 25px;
+            border-top: 1px;
+        
+            
+            width100%
+        }
+        .section{
+            text-align: center;
+        }
+        .section h2{
+            text-align: center;
+
+        }
+        nav ul li a{
+            color: rgb(255, 162, 0);
+            font-size: 1.5em;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav ul li a:hover{
+            text-decoration: underline;
+        }
+        header h1{
+            margin: 0;
+            font-size: 2em;
+            text-align: center;
+        }
+        header{
+        
+            background-color: none;
+            color: none;
+            pad: 10px 0;
+            
+        }
+
+
+
+    </style>
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="profile-picture">
+                <img src="me.jpg" alt="Profile Picture" width="500px">
+            </div>
+            <h1>MD. RIFAT SHEIKH</h1>
+            <nav>
+                <ul>
+                    <li><a href="aboutpage.htm">About</a></li>
+                    <li><a href="projectpage.htm">Projects</a></li>
+                    <li><a href="contactpage.htm">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="about" class="section">
+        
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="bio">
+                <p>Hello,My name is Md. Rifat Sheikh. I am currently pursuing a degree in Computer Science and Engineering (CSE), 
+                    demonstrating a strong passion for technology and innovation from a young age. 
+                    I completed SSC from Govt. Islampur Nekjahan Pilot Model High School, where their academic excellence and dedication to studies were evident.
+                     Following this, I have completed HSC from Notre Dame College, Dhaka, one of the most prestigious institutions in the country.where they further honed their skills and developed a deep interest in computer science.
+                </p>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Md. Rifat Sheikh</p>
+        </div>
+    </footer>
+</body>
+</html>
